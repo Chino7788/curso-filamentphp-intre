@@ -28,7 +28,6 @@ class UserResource extends Resource
     protected static ?string $navigationLabel = 'Employees'; 
     protected static ?string $navigationIcon = 'solar-users-group-two-rounded-outline';
     protected static ?string $navigationGroup = 'Employes Management';
-
     protected static ?int $navigationSort = 2;
    
     public static function form(Form $form): Form
